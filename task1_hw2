@@ -1,0 +1,8 @@
+stroka = input("Введите строку: ")
+l = len(stroka)
+if l % 2 == 0:
+    i = l // 2
+    print(stroka[i-1] + stroka[i])
+else:
+    i = l // 2
+    print(stroka[i])
